@@ -10,7 +10,7 @@ export default function ArticlePreview(data: PreviewProps) {
             <div>
                 <h1>{data.title}</h1>
                 <p>{data.subTitle}</p>
-                <button onClick={() => { navigate(`/article/${data._id}`) }}>Leia mais</button>
+                <button onClick={() => { navigate(`/article/${data.id}`) }}>Leia mais</button>
             </div>
         </article>
     )

@@ -15,3 +15,48 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+form{
+    margin: auto;
+    max-width: 1440px;
+    padding: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form input, form textarea, form button{
+    border: 1px solid #007AFF;
+    border-radius: 5px;
+    padding: 12px 16px;
+    margin: 20px 10px;
+    font-size: 16px;
+}
+
+form textarea{
+    max-width: 500px;
+    resize: both;
+}
+
+form button{
+    background-color: #f9f9f9;
+    transition: 500ms;
+}
+
+form button:hover{
+    background-color: #007AFF;
+}
+
+form .form-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
