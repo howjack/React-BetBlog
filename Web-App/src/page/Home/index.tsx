@@ -27,7 +27,7 @@ export default function Home() {
                         title={article.title}
                         img={article.img}
                         subTitle={article.subTitle}
-                        _id={article._id}
+                        id={article.id}
                     />
                 )
             })}
