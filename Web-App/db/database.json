@@ -1,0 +1,11 @@
+{
+	"articles": [
+        { 
+        "_id": 1,
+        "title": "Como funciona o Sistema",
+        "subTitle": "Aprenda como funciona o novo sistema de afiliados da PixBet",
+        "img": "https://blog.pixbet.com/storage/blogged/images/foTzbrwn9uhvHQ2rKhf2s5S2oV2L499Ln6GFwiNX.jpg",
+        "content": "test1"
+        }
+    ]
+}
