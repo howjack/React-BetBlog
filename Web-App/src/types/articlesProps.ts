@@ -1,17 +1,13 @@
 type PreviewProps = {
-    title: string;
-    subTitle: string;
-    img: string;
-    id?: number;
+    title: string | undefined;
+    subTitle: string | undefined;
+    img: string | undefined;
+    id?: number | undefined;
 }
 
 type CompleteProps = {
-    content: string;
-    author: string;
+    content: string | undefined;
+    author: string | undefined;
 } & PreviewProps
-
-type RegisterProps = {
-    _id: number
-} 
 
 export type {PreviewProps, CompleteProps}
