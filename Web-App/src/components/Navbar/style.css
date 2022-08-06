@@ -1,0 +1,49 @@
+nav{
+    background-color: #007aff;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+section{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav h1 a{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #c3f901;
+}
+
+nav strong{
+    font-size: 1.2rem;
+    border: 2px solid #2dce89;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+ul a{
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #2dce89;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ul a:hover{
+    background-color: #2dce889f;
+}
