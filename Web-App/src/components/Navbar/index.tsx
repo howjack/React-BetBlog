@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <nav>
             <section>
-                <h1><Link to={"/"}>PixBet<strong>BLOG</strong></Link></h1>
+                <h1><Link to={"/"}>Bet<strong>BLOG</strong></Link></h1>
                 <ul>
                     <li><Link to={"/form"}>Adicionar</Link></li>
                 </ul>
