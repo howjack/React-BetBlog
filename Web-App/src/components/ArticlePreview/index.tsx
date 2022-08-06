@@ -6,7 +6,7 @@ export default function ArticlePreview(data: PreviewProps) {
     const navigate = useNavigate();
     return (
         <article>
-            <img src={data.img? data.img : "Pixbet-logo.png"} alt={data.title} />
+            <img src={data.img? data.img : "/blog.webp"} alt={data.title} />
             <div>
                 <h1>{data.title}</h1>
                 <p>{data.subTitle}</p>

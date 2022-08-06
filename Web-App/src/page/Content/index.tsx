@@ -22,7 +22,7 @@ export default function Content() {
     return (
         <main className="content">
             <div className="content-container">
-                <img src={data?.img? data?.img : "/Pixbet-logo.png"} alt={data?.title} />
+                <img src={data?.img? data?.img : "/blog.webp"} alt={data?.title} />
                 <ArticleContent
                     title={data?.title}
                     author={data?.author}
